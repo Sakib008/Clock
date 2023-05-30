@@ -1,0 +1,43 @@
+
+.analog{
+    width: 40vw;
+    height: 40vw;
+    background-color: #0697ebee;
+ background: url(./img/img1.png) no-repeat;
+ background-size: 100%;
+ margin: auto;
+position: relative;
+}
+#hour {
+    background: #000;
+    height: 30%;
+    width: 2.5%;
+    position: absolute;
+    top: 21.3%;
+    left: 48.353%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+transform-origin: bottom;
+}
+#minute {
+    background: #f00;
+    height: 34%;
+    width: 1.8%;
+    position: absolute;
+    top: 17.3%;
+    left: 48.6%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform-origin: bottom;
+}
+#second {
+    background: #ffe109;
+    height: 38%;
+    width: 1%;
+    position: absolute;
+    top: 13.3%;
+    left: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transform-origin: bottom;
+}
